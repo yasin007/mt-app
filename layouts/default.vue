@@ -13,8 +13,8 @@
 </template>
 
 <script>
-  import MyHeader from '@/components/public/header/index.vue'
-  import MyFooter from '@/components/public/footer/index.vue'
+  import MyHeader from '@/components/public/header/'
+  import MyFooter from '@/components/public/footer/'
 
   export default {
     components: {

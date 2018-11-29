@@ -1,29 +1,25 @@
 <template>
-  <el-row
-    :gutter="0"
-    class="m-header">
-    <el-col :span="5">
-      <geo></geo>
-    </el-col>
-    <el-col :span="5">
-      <user></user>
-    </el-col>
-    <el-col :span="14">
-      <nav-bar></nav-bar>
-    </el-col>
-  </el-row>
+  <div class="m-header">
+    <el-row>
+      <el-col>
+        <top-bar></top-bar>
+      </el-col>
+      <el-col>
+        <search-bar></search-bar>
+      </el-col>
+    </el-row>
+  </div>
+
 </template>
 
 <script>
-  import Geo from './geo.vue'
-  import User from './user.vue'
-  import NavBar from './nav.vue'
+  import topBar from './topbar.vue'
+  import searchBar from './saerchbar.vue'
 
   export default {
     components: {
-      Geo,
-      User,
-      NavBar
+      topBar,
+      searchBar
     }
   }
 </script>
