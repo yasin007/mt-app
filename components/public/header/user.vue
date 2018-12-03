@@ -28,5 +28,24 @@
 </script>
 
 <style lang="scss">
-
+  .m-user {
+    .username {
+      color: #31BBAC;
+      cursor: pointer;
+    }
+    .login,
+    .register {
+      font-size: 12px;
+      line-height: 40px;
+      color: #999;
+      margin: 0 5px;
+      &.login {
+        color: #31BBAC;
+        margin: 0 5px 0 20px;
+      }
+      &:hover {
+        color: #31BBAC;
+      }
+    }
+  }
 </style>

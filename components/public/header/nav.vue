@@ -19,10 +19,10 @@
         </dl>
       </li>
       <li>
-        <nuxt-link to="/my">手机app</nuxt-link>
+        <nuxt-link to="/order">手机APP</nuxt-link>
       </li>
-      <li class="list">
-        <nuxt-link to="/my">商家中心</nuxt-link>
+      <li class="list bd">
+        <nuxt-link to="/center">商家中心</nuxt-link>
         <dl>
           <dd>
             <nuxt-link to="/userCenter">登录商家中心</nuxt-link>
@@ -38,8 +38,8 @@
           </dd>
         </dl>
       </li>
-      <li class="list">
-        <nuxt-link to="/my">网站导航</nuxt-link>
+      <li class="list site">
+        <nuxt-link to="/site">网站导航</nuxt-link>
         <div class="subContainer">
           <dl class="hotel">
             <dt>酒店旅游</dt>
@@ -53,28 +53,71 @@
             <dd>国际机票</dd>
             <dd>国际机票</dd>
             <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
           </dl>
           <dl class="food">
             <dt>吃美食</dt>
-            <dd>国际机票</dd>
-            <dd>国际机票</dd>
-            <dd>国际机票</dd>
-            <dd>国际机票</dd>
-            <dd>国际机票</dd>
+            <dd>烤鱼</dd>
+            <dd>特色小吃</dd>
+            <dd>烧烤</dd>
+            <dd>烧烤</dd>
+            <dd>烧烤</dd>
+            <dd>烧烤</dd>
           </dl>
           <dl class="movie">
-            <dt>电影</dt>
-            <dd>功夫</dd>
-            <dd>功夫</dd>
-            <dd>功夫</dd>
-            <dd>功夫</dd>
-            <dd>功夫</dd>
+            <dt>看电影</dt>
+            <dd>热映电影</dd>
+            <dd>热映电影</dd>
+            <dd>热映电影</dd>
+            <dd>热映电影</dd>
+            <dd>热映电影</dd>
+            <dd>热映电影</dd>
+            <dd>热映电影</dd>
           </dl>
           <dl class="app">
             <dt>手机应用</dt>
             <dd>
-              <a href="">
-                <img src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png">
+              <a href="#">
+                <img
+                  src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
+                  title="美团app"
+                  alt="美团app">
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                <img
+                  src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
+                  title="美团app"
+                  alt="美团app">
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                <img
+                  src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
+                  title="美团app"
+                  alt="美团app">
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                <img
+                  src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
+                  title="美团app"
+                  alt="美团app">
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                <img
+                  src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
+                  title="美团app"
+                  alt="美团app">
               </a>
             </dd>
           </dl>
@@ -116,6 +159,7 @@
         &.list:hover {
           border: 1px solid #E5E5E5;
           border-top: none;
+          background: white;
 
           > dl {
             display: block;

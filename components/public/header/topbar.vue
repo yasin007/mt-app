@@ -29,5 +29,10 @@
 </script>
 
 <style lang="scss">
-
+  .m-topbar {
+    width: 1190px !important;
+    height: 40px;
+    line-height: 40px;
+    z-index: 9;
+  }
 </style>
