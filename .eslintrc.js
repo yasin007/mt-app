@@ -16,6 +16,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    'vue/html-self-closing': "off"
+    'vue/html-self-closing': "off",
+    'indent': 'off'
   }
 }
